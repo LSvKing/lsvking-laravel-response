@@ -19,21 +19,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Jiannei\\Response\\Laravel\\": "src"
+            "LSvKing\\Response\\Laravel\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jiannei\\Response\\Laravel\\Tests\\": "tests"
+            "LSvKing\\Response\\Laravel\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jiannei\\Response\\Laravel\\Providers\\LaravelServiceProvider"
+                "LSvKing\\Response\\Laravel\\Providers\\LaravelServiceProvider"
             ],
             "aliases": {
-                "Response": "Jiannei\\Response\\Laravel\\Support\\Facades\\Response"
+                "Response": "LSvKing\\Response\\Laravel\\Support\\Facades\\Response"
             }
         }
     },
