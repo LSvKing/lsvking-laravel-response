@@ -1,11 +1,11 @@
 {
-    "name": "jiannei\/laravel-response",
+    "name": "lsving\/lsvking-laravel-response",
     "description": "Laravel api response data format.",
     "license": "MIT",
     "authors": [
         {
-            "name": "jiannei",
-            "email": "longjian.huang@foxmail.com"
+            "name": "lsvking",
+            "email": "lsvking@gmail.com"
         }
     ],
     "require": {

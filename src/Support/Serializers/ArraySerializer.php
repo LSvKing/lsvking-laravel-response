@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Jiannei\Response\Laravel\Support\Serializers;
+namespace LSvKing\Response\Laravel\Support\Serializers;
 
 use Illuminate\Support\Facades\Config;
 use League\Fractal\Pagination\PaginatorInterface;

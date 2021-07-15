@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Jiannei\Response\Laravel\Tests\Repositories\Resources;
+namespace LSvKing\Response\Laravel\Tests\Repositories\Resources;
 
 use Illuminate\Http\Resources\Json\ResourceCollection;
 

@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Jiannei\Response\Laravel\Support\Facades;
+namespace LSvKing\Response\Laravel\Support\Facades;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Resources\Json\JsonResource;
@@ -28,12 +28,12 @@ use Illuminate\Support\Facades\Facade as IlluminateFacade;
  * @method static void errorInternal(string $message = '')
  * @method static JsonResponse fail(string $message = '', int $code = 500, $errors = null, array $header = [], int $options = 0)
  *
- * @see \Jiannei\Response\Laravel\Response
+ * @see \LSvKing\Response\Laravel\Response
  */
 class Response extends IlluminateFacade
 {
     protected static function getFacadeAccessor()
     {
-        return \Jiannei\Response\Laravel\Response::class;
+        return \LSvKing\Response\Laravel\Response::class;
     }
 }

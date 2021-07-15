@@ -9,13 +9,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Jiannei\Response\Laravel\Tests;
+namespace LSvKing\Response\Laravel\Tests;
 
 use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Support\Arr;
-use Jiannei\Response\Laravel\Support\Facades\Response;
-use Jiannei\Response\Laravel\Support\Traits\ExceptionTrait;
-use Jiannei\Response\Laravel\Tests\Repositories\Enums\ResponseCodeEnum;
+use LSvKing\Response\Laravel\Support\Facades\Response;
+use LSvKing\Response\Laravel\Support\Traits\ExceptionTrait;
+use LSvKing\Response\Laravel\Tests\Repositories\Enums\ResponseCodeEnum;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
 use Throwable;

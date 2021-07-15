@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Jiannei\Response\Laravel\Support\Traits;
+namespace LSvKing\Response\Laravel\Support\Traits;
 
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Http\Exceptions\HttpResponseException;
@@ -18,7 +18,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Validation\ValidationException;
-use Jiannei\Response\Laravel\Response;
+use LSvKing\Response\Laravel\Response;
 use Throwable;
 
 trait ExceptionTrait

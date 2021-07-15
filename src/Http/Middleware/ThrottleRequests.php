@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Jiannei\Response\Laravel\Http\Middleware;
+namespace LSvKing\Response\Laravel\Http\Middleware;
 
 use Closure;
 use Illuminate\Cache\RateLimiter;

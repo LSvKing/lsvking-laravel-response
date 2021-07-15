@@ -9,10 +9,10 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Jiannei\Response\Laravel\Tests;
+namespace LSvKing\Response\Laravel\Tests;
 
-use Jiannei\Response\Laravel\Providers\LaravelServiceProvider;
-use Jiannei\Response\Laravel\Tests\Repositories\Enums\ResponseCodeEnum;
+use LSvKing\Response\Laravel\Providers\LaravelServiceProvider;
+use LSvKing\Response\Laravel\Tests\Repositories\Enums\ResponseCodeEnum;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {

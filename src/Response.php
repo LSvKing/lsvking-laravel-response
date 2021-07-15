@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Jiannei\Response\Laravel;
+namespace LSvKing\Response\Laravel;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Http\Exceptions\HttpResponseException;

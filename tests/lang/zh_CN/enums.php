@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-use Jiannei\Response\Laravel\Tests\Repositories\Enums\ResponseCodeEnum;
+use LSvKing\Response\Laravel\Tests\Repositories\Enums\ResponseCodeEnum;
 
 return [
     // 响应状态码

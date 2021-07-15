@@ -9,15 +9,15 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Jiannei\Response\Laravel\Tests;
+namespace LSvKing\Response\Laravel\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Jiannei\Response\Laravel\Support\Facades\Response;
-use Jiannei\Response\Laravel\Tests\Repositories\Enums\ResponseCodeEnum;
-use Jiannei\Response\Laravel\Tests\Repositories\Models\User;
-use Jiannei\Response\Laravel\Tests\Repositories\Resources\UserCollection;
-use Jiannei\Response\Laravel\Tests\Repositories\Resources\UserResource;
+use LSvKing\Response\Laravel\Support\Facades\Response;
+use LSvKing\Response\Laravel\Tests\Repositories\Enums\ResponseCodeEnum;
+use LSvKing\Response\Laravel\Tests\Repositories\Models\User;
+use LSvKing\Response\Laravel\Tests\Repositories\Resources\UserCollection;
+use LSvKing\Response\Laravel\Tests\Repositories\Resources\UserResource;
 
 class SuccessTest extends TestCase
 {

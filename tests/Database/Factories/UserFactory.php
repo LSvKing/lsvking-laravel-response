@@ -9,11 +9,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Jiannei\Response\Laravel\Tests\Database\Factories;
+namespace LSvKing\Response\Laravel\Tests\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
-use Jiannei\Response\Laravel\Tests\Repositories\Models\User;
+use LSvKing\Response\Laravel\Tests\Repositories\Models\User;
 
 class UserFactory extends Factory
 {

@@ -52,12 +52,12 @@ $ composer require jiannei/laravel-response -vvv
 - 发布配置文件
 
 ```shell
-$ php artisan vendor:publish --provider="Jiannei\Response\Laravel\Providers\LaravelServiceProvider"
+$ php artisan vendor:publish --provider="LSvKing\Response\Laravel\Providers\LaravelServiceProvider"
 ```
 
 - 格式化异常响应
 
-在 `app/Exceptions/Handler.php` 中 引入 `use Jiannei\Response\Laravel\Support\Traits\ExceptionTrait;`  引入以后，对于 ajax 请求产生的异常都会进行格式化数据返回。
+在 `app/Exceptions/Handler.php` 中 引入 `use LSvKing\Response\Laravel\Support\Traits\ExceptionTrait;`  引入以后，对于 ajax 请求产生的异常都会进行格式化数据返回。
 
 ### Lumen
 
@@ -76,14 +76,14 @@ $app->configure('response');
 
 - 格式化异常响应
 
-在 `app/Exceptions/Handler.php` 中 引入 `use Jiannei\Response\Laravel\Support\Traits\ExceptionTrait;`
+在 `app/Exceptions/Handler.php` 中 引入 `use LSvKing\Response\Laravel\Support\Traits\ExceptionTrait;`
 
-在 `app/Http/Controllers/Controller.php` 中引入 `use Jiannei\Response\Laravel\Support\Traits\ExceptionTrait;`
+在 `app/Http/Controllers/Controller.php` 中引入 `use LSvKing\Response\Laravel\Support\Traits\ExceptionTrait;`
 
 - 注册服务容器
 
 ```php
-$app->register(\Jiannei\Response\Laravel\Providers\LumenServiceProvider::class);
+$app->register(\LSvKing\Response\Laravel\Providers\LumenServiceProvider::class);
 ```
 
 ## 使用

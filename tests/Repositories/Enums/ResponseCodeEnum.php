@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Jiannei\Response\Laravel\Tests\Repositories\Enums;
+namespace LSvKing\Response\Laravel\Tests\Repositories\Enums;
 
 use Jiannei\Enum\Laravel\Repositories\Enums\HttpStatusCodeEnum;
 
